@@ -14,4 +14,4 @@ input_test = st.text_input("provide your text input here", 'Hello I am Masroor')
 
 button_clicked = st.button("Click to get Language")
 if button_clicked:
-	st.text(Lrdetect_Model.predict([input_test]))
+	st.text("This Language is: "+Lrdetect_Model.predict([input_test]))

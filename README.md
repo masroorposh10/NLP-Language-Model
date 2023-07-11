@@ -1,6 +1,8 @@
 # NLP Language Checker
 This project implements a Natural Language Processing (NLP) model that can detect the language of a given input text. It uses a pre-trained language detection model to predict the language of the input text.
-
+# to run:
+run the command 
+streamlit run app.py
 # Prerequisites
 Python 3.6 or above
 Required packages: pickle, string, streamlit, webbrowser
